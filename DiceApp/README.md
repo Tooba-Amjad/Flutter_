@@ -21,6 +21,13 @@ This is a simple dice game developed using Flutter. The game allows up to four p
    cd dice-game
 3-Install the necessary dependencies:
    ```bash
-   Run the app:
-   flutter run
+   Run the app
+
+
+
+
+
+
+
+
 
