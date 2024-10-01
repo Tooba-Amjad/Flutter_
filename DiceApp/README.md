@@ -39,15 +39,18 @@ The main components of the game include:
 
 ## Images
 Here are the images used in the game:
-![Spin the Bottle Image 1](1.png)
-![Spin the Bottle Image 2](2.png)
-
+![1](https://github.com/user-attachments/assets/78a9cefd-5799-4e55-9082-fcf801a762cc)
+![2](https://github.com/user-attachments/assets/6c6f3f2a-20bd-4d92-9823-fab37464c4b3)
 
 
 YouTube Video
 
 
-https://github.com/user-attachments/assets/06c23b5e-eb5c-401d-bdf8-480cdfcd289e
+
+
+https://github.com/user-attachments/assets/40a5148d-9e95-4ad6-99e1-808d9541bc0d
+
+
 
 
 
@@ -63,6 +66,7 @@ https://github.com/user-attachments/assets/06c23b5e-eb5c-401d-bdf8-480cdfcd289e
 3-Install the necessary dependencies:
    ```bash
    flutter run
+
 
 
 
