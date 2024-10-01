@@ -1,16 +1,26 @@
-# dapp
+# Flutter Dice Game
 
-A new Flutter project.
+This is a simple dice game developed using Flutter. The game allows up to four players to roll dice and accumulate points, with special rules for when a player rolls a six.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Multi-player Support**: Play with up to 4 players.
+- **Rolling Dice**: Tap the dice image to roll and get a random value.
+- **Score Tracking**: Keep track of each player's score.
+- **Win Condition**: Set a target score to determine the winner.
+- **Dice Size Change**: Dice appear larger when a player rolls a six.
+- **Turn Skipping**: If a player rolls a six, the next player's turn is skipped.
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/dice-game.git
+2. Navigate to the project directory:
+   ```bash
+   cd dice-game
+3-Install the necessary dependencies:
+  ```bash
+   Run the app:
+   flutter run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
