@@ -17,16 +17,19 @@ In **Spin the Bottle**, players take turns spinning a bottle in the center of th
 ## YouTube Video
 Watch the gameplay here:
 
-[YouTube Video Link](https://youtu.be/23s5Rd0ut6Q)
+
+https://github.com/user-attachments/assets/a0904aec-2428-4e43-8aea-065755b8638b
+
+
 
 
 ## Images
 
 Here are some images from our Spin the Bottle game sessions:
 
-![Spin the Bottle Image 1](1.png)
-![Spin the Bottle Image 2](2.png)
-![Spin the Bottle Image 3](3.png)
+![3](https://github.com/user-attachments/assets/6d445ed2-ee36-4b9c-858d-fa073f532977)
+![2](https://github.com/user-attachments/assets/781f32c8-346c-43cb-bf0f-b3bb16ff8ae1)
+![1](https://github.com/user-attachments/assets/6ed24fd0-f89f-4e14-b795-50583eebcef5)
 
 ## Conclusion
 
