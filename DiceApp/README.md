@@ -20,7 +20,7 @@ This is a simple dice game developed using Flutter. The game allows up to four p
    ```bash
    cd dice-game
 3-Install the necessary dependencies:
-  ```bash
+   ```bash
    Run the app:
    flutter run
 
