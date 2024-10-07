@@ -1,4 +1,4 @@
-![WhatsApp Image 2024-10-08 at 1 30 17 AM (1)](https://github.com/user-attachments/assets/8bce4cc0-e126-478f-b163-6cea68dd53d5)# Customized Xylophone App
+# Customized Xylophone App
 
 ![Xylophone App Banner](path/to/your/banner/image.png)
 
@@ -17,34 +17,20 @@ The Customized Xylophone App is a fun and interactive musical instrument built w
 ## Screenshots
 
 ### Home Screen
-
-![WhatsApp Image 2024-10-08 at 1 30 17 AM (1)](https://github.com/user-attachments/assets/54f38f7e-5fa3-44df-9f39-a519dd20c142)
-
-
-
+<img src="https://github.com/user-attachments/assets/54f38f7e-5fa3-44df-9f39-a519dd20c142" alt="Home Screen" width="300"/>
 
 ### Volume Control
-![WhatsApp Image 2024-10-08 at 1 30 17 AM](https://github.com/user-attachments/assets/648b2cf7-dee6-49d7-a2af-3216bcb0153f)
-
-
+<img src="https://github.com/user-attachments/assets/648b2cf7-dee6-49d7-a2af-3216bcb0153f" alt="Volume Control" width="300"/>
 
 ### Color Picker
-
-![WhatsApp Image 2024-10-08 at 1 30 16 AM (1)](https://github.com/user-attachments/assets/6483be99-90bc-4fc4-afa4-a102abde3e51)
-
-
+<img src="https://github.com/user-attachments/assets/6483be99-90bc-4fc4-afa4-a102abde3e51" alt="Color Picker" width="300"/>
 
 ### Sound Picker
-![WhatsApp Image 2024-10-08 at 1 30 16 AM](https://github.com/user-attachments/assets/7600b3be-b3c8-4a21-aad5-5491eb7e6c93)
-
+<img src="https://github.com/user-attachments/assets/7600b3be-b3c8-4a21-aad5-5491eb7e6c93" alt="Sound Picker" width="300"/>
 
 ## Screen Recording
 
-
-
-https://github.com/user-attachments/assets/cd21ac35-c729-4824-a76a-6db87c3cd958
-
-
+[Watch the App in Action](https://github.com/user-attachments/assets/cd21ac35-c729-4824-a76a-6db87c3cd958)
 
 ## Usage
 
