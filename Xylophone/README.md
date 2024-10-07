@@ -1,6 +1,5 @@
 # Customized Xylophone App
 
-![Xylophone App Banner](path/to/your/banner/image.png)
 
 ## Overview
 
