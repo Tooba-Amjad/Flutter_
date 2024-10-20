@@ -16,7 +16,7 @@ https://github.com/user-attachments/assets/1ae629bb-5138-40a9-bade-e8460aed04ef
 
 
 ##images
-![WhatsApp Image 2024-10-19 at 5 32 18 PM](https://github.com/user-attachments/assets/14c43921-d0c2-419b-bb00-777a09fb22a8)
-![WhatsApp Image 2024-10-19 at 5 32 18 PM (1)](https://github.com/user-attachments/assets/630a9aa4-36e5-423e-97df-f99645bb5507)
-![WhatsApp Image 2024-10-19 at 5 32 59 PM](https://github.com/user-attachments/assets/e9d40dc8-ec5f-45e9-b9e2-3dd2b4262d2b)
+<img src="https://github.com/user-attachments/assets/14c43921-d0c2-419b-bb00-777a09fb22a8" alt="Coin Flip Screenshot 1" width="300" />
+<img src="https://github.com/user-attachments/assets/630a9aa4-36e5-423e-97df-f99645bb5507" alt="Coin Flip Screenshot 2" width="300" />
+<img src="https://github.com/user-attachments/assets/e9d40dc8-ec5f-45e9-b9e2-3dd2b4262d2b" alt="Coin Flip Screenshot 3" width="300" />
 
