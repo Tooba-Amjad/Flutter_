@@ -14,11 +14,12 @@ In **Spin the Bottle**, players take turns spinning a bottle in the center of th
 4. The person at whom the bottle points must complete a challenge or answer a question.
 5. Continue taking turns until everyone has had a chance to spin!
 
-## YouTube Video
-Watch the gameplay here:
+## Video
+
+https://github.com/user-attachments/assets/8ef92370-158a-4096-8c96-0fee06ec2157
 
 
-https://github.com/user-attachments/assets/a0904aec-2428-4e43-8aea-065755b8638b
+
 
 
 
@@ -26,10 +27,10 @@ https://github.com/user-attachments/assets/a0904aec-2428-4e43-8aea-065755b8638b
 ## Images
 
 Here are some images from our Spin the Bottle game sessions:
+![WhatsApp Image 2024-10-21 at 1 24 36 AM](https://github.com/user-attachments/assets/3b8bd691-aa17-4ae0-8e47-8a5e76a7b966)
+![WhatsApp Image 2024-10-21 at 1 24 37 AM](https://github.com/user-attachments/assets/f509f5ad-ce36-4368-bf81-3bff0478ae43)
+![WhatsApp Image 2024-10-21 at 1 24 36 AM (1)](https://github.com/user-attachments/assets/5f995772-a226-4166-9778-9b121eea7489)
 
-![3](https://github.com/user-attachments/assets/6d445ed2-ee36-4b9c-858d-fa073f532977)
-![2](https://github.com/user-attachments/assets/781f32c8-346c-43cb-bf0f-b3bb16ff8ae1)
-![1](https://github.com/user-attachments/assets/6ed24fd0-f89f-4e14-b795-50583eebcef5)
 
 ## Conclusion
 
