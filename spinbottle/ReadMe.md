@@ -28,7 +28,8 @@ https://github.com/user-attachments/assets/b9491a8e-65df-4383-9ee7-8ca31a31cea2
 
 ### Image Demonstration
 
-Here’s an image showcasing the Spin the Bottle interface:
+Here’s an image showcasing the Spin the Bottle interface:<br>
+
 <img src="https://github.com/user-attachments/assets/8dd10cae-a881-4b5f-a8bd-c15161fa2be8" alt=" Screenshot 4" width="300" />
 <img src="https://github.com/user-attachments/assets/3efab6e0-cf5b-40f3-b849-db2175903e97" alt="Screenshot 5" width="300" />
 <img src="https://github.com/user-attachments/assets/b638df4c-5e43-4e65-9529-95394c25866c" alt=" Screenshot 6" width="300" />
