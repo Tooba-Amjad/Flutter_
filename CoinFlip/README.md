@@ -1,16 +1,25 @@
-# coinflip
+# Coin Flip Animation App
 
-A new Flutter project.
+A simple Flutter app that simulates a coin flip with a 3D animation. Users can guess the outcome (heads or tails) and check if they are correct.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- 3D Coin Flip Animation
+- User guesses heads or tails
+- Tracks correct and incorrect guesses
 
-A few resources to get you started if this is your first Flutter project:
+##video
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+https://github.com/user-attachments/assets/1ae629bb-5138-40a9-bade-e8460aed04ef
+
+
+##Images
+
+
+<img src="https://github.com/user-attachments/assets/14c43921-d0c2-419b-bb00-777a09fb22a8" alt="Coin Flip Screenshot 1" width="300" />
+
+<img src="https://github.com/user-attachments/assets/630a9aa4-36e5-423e-97df-f99645bb5507" alt="Coin Flip Screenshot 2" width="300" />
+<img src="https://github.com/user-attachments/assets/e9d40dc8-ec5f-45e9-b9e2-3dd2b4262d2b" alt="Coin Flip Screenshot 3" width="300" />
+
