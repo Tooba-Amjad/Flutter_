@@ -79,6 +79,7 @@ class _CoinFlipHomePageState extends State<CoinFlipHomePage>
     _controller.forward();
   }
 
+<<<<<<< HEAD
   // Function to reset the game state
   void resetGame() {
     setState(() {
@@ -90,6 +91,8 @@ class _CoinFlipHomePageState extends State<CoinFlipHomePage>
     });
   }
 
+=======
+>>>>>>> 1a312d654217a5b714ecfe9b3a113e7fee436e98
   // Check if the player's guess matches the flip result
   void checkGuess() {
     if (playerGuess == null) {
@@ -182,6 +185,7 @@ class _CoinFlipHomePageState extends State<CoinFlipHomePage>
               'Incorrect Guesses: $incorrectGuesses',
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
             ),
+<<<<<<< HEAD
             SizedBox(height: 40), // Add some space before the reset button
             ElevatedButton(
               onPressed: resetGame,
@@ -193,6 +197,8 @@ class _CoinFlipHomePageState extends State<CoinFlipHomePage>
                 style: TextStyle(color: Colors.white), // White text
               ),
             ),
+=======
+>>>>>>> 1a312d654217a5b714ecfe9b3a113e7fee436e98
           ],
         ),
       ),

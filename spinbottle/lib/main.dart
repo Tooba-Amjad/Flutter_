@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
+<<<<<<< HEAD
 import 'package:image_picker/image_picker.dart';
 import 'dart:io';
 
@@ -8,11 +9,21 @@ void main() {
 }
 
 class SpinTheBottleApp extends StatelessWidget {
+=======
+import 'package:untitled/screens/home_screen.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+>>>>>>> 1a312d654217a5b714ecfe9b3a113e7fee436e98
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Spin the Bottle',
       theme: ThemeData(
+<<<<<<< HEAD
         primarySwatch: Colors.purple,
       ),
       home: StartGamePage(),
@@ -295,6 +306,11 @@ class _SpinBottlePageState extends State<SpinBottlePage>
           ],
         ),
       ),
+=======
+        primarySwatch: Colors.blue,
+      ),
+      home: HomeScreen(),
+>>>>>>> 1a312d654217a5b714ecfe9b3a113e7fee436e98
     );
   }
 }
