@@ -35,7 +35,7 @@ Here’s an image showcasing the Spin the Bottle interface:<br>
 <img src="https://github.com/user-attachments/assets/b638df4c-5e43-4e65-9529-95394c25866c" alt=" Screenshot 6" width="300" />
 
 
-*Spin the Bottle Game Screenshot*
+
 
 ## How to Play
 
