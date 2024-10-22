@@ -25,9 +25,6 @@ A simple yet exciting app that lets users flip a coin and see heads or tails. Ea
 
 Each project is organized into its own folder within this repository:
 
-- `Profile Apps/`
-  - Contains four distinct profile app designs.
-  
 - `Xylophone/`
   - Code and assets for the Xylophone app.
   
@@ -39,6 +36,15 @@ Each project is organized into its own folder within this repository:
   
 - `Flip the Coin/`
   - Code and assets for the Flip the Coin app.
+
+- `Profile Apps/`
+  - Contains four distinct profile app designs.
+
+---
+
+## APKs 📦
+
+You can find the compiled APKs for each project in the `APKs/` folder. Simply download the APKs from there and install them on your Android device to experience the apps firsthand without needing to build the projects yourself.
 
 ---
 
