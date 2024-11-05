@@ -4,6 +4,11 @@ import 'IconText.dart';
 import 'ContainerFile.dart';
 const activeColor=Color(0xFF1D1E33);
 const deActiveColor=Color(0xFF111328);
+enum Gender{
+  male,
+  female
+}
+
 class InputPage extends StatefulWidget {
 
   @override
@@ -12,12 +17,14 @@ class InputPage extends StatefulWidget {
 class InputPageState extends State<InputPage> {
   Color maleColor=deActiveColor;
   Color femaleColor=deActiveColor;
-  void updateColor(int gender){
-if(gender==1){
+
+  void updateColor(Gender gendertype){
+if(gendertype==Gender.male){
   maleColor=activeColor;
   femaleColor=deActiveColor;
 }
-if(gender==2){
+if(gendertype==Gender.female
+){
   maleColor=activeColor;
   femaleColor=deActiveColor;
 }
@@ -38,7 +45,7 @@ if(gender==2){
                   child:GestureDetector(
                     onTap: (){
                       setState(() {
-                        updateColor(1);
+                        updateColor(Gender.male);
                       });
                     },
                   child: RepeatRefactorCode(
@@ -53,7 +60,7 @@ if(gender==2){
                 child:GestureDetector(
                 onTap: (){
                 setState(() {
-                updateColor(2);
+                updateColor(Gender.female);
                 });
                 },
                   child:RepeatRefactorCode(colors:femaleColor,
