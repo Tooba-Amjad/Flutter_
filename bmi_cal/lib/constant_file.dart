@@ -13,3 +13,7 @@ fontSize: 50.0,
 fontWeight:
 FontWeight.w900,
 );
+const kLargebutton=TextStyle(
+  fontSize: 25.0,
+  fontWeight:FontWeight.bold,
+);
