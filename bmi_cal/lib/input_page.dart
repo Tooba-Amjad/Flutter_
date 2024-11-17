@@ -42,33 +42,33 @@ Gender? selectGender;
             child: Row(
               children: <Widget>[
                 Expanded(
-                  child:GestureDetector(
-                    onTap: (){
+
+                  child: RepeatRefactorCode(
+                    onPressed:() {
                       setState(() {
-                      selectGender=Gender.male;
+                        selectGender=Gender.male;
                       });
                     },
-                  child: RepeatRefactorCode(
                     colors:selectGender==Gender.male?activeColor:deActiveColor,
                     cardwidget: RefactorTextandIcon(
                       iconData:FontAwesomeIcons.person,
                       label: "MALE",
                     ),
-                  ),),
+                  ),
                 ),
                 Expanded(
-                child:GestureDetector(
-                onTap: (){
-                setState(() {
-                  selectGender=Gender.female;
-                });
-                },
+
                   child:RepeatRefactorCode(colors:selectGender==Gender.female?activeColor:deActiveColor,
+                    onPressed:() {
+                      setState(() {
+                        selectGender=Gender.male;
+                      });
+                    },
                    cardwidget: RefactorTextandIcon(
                      iconData:FontAwesomeIcons.female,
                      label: "Female",
                    ),)
-                ),
+
                 ),
               ],
             ),
