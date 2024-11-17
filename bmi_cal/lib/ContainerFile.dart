@@ -6,15 +6,22 @@ import 'ContainerFile.dart';
 class RepeatRefactorCode extends StatelessWidget {
   final Color colors;
   final Widget? cardwidget;
-  final Function onPressed;
+  final Function? onPressed;
   RepeatRefactorCode(
-      {required this.colors, this.cardwidget, required this.onPressed});
+      {required this.colors, this.cardwidget,  this.onPressed});
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: onPressed(),
-      child:Container(
+
+          onTap: () {
+            if (onPressed != null) {
+              onPressed!(); // Safe Call
+            }
+          },
+
+
+        child:Container(
       margin: EdgeInsets.all(15.0),
       decoration: BoxDecoration(
         color: colors,
