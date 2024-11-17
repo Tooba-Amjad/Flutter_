@@ -5,8 +5,11 @@ import 'IconText.dart';
 import 'ContainerFile.dart';
 
 enum Gender { male, female }
-int sliderHeigth=180;
-int sliderWeigth=60;
+
+int sliderHeigth = 180;
+int sliderWeigth = 60;
+int sliderAge = 20;
+
 class InputPage extends StatefulWidget {
   @override
   InputPageState createState() => InputPageState();
@@ -95,18 +98,17 @@ class InputPageState extends State<InputPage> {
                         'cm',
                         style: kLabelStyle,
                       ),
-
                     ],
                   ),
                   Slider(
                     value: sliderHeigth.toDouble(),
                     min: 120.0,
-                    max:220.0,
+                    max: 220.0,
                     activeColor: Color(0xFFEB1555),
-                    inactiveColor:Color(0xFF8D8E98),
-                    onChanged:(double newValue){
+                    inactiveColor: Color(0xFF8D8E98),
+                    onChanged: (double newValue) {
                       setState(() {
-                        sliderHeigth=newValue.round();
+                        sliderHeigth = newValue.round();
                       });
                     },
                   ),
@@ -123,15 +125,35 @@ class InputPageState extends State<InputPage> {
                     cardwidget: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Text('WEIGTH',style:kLabelStyle
-                          ,),
-                        Text(sliderWeigth.toString(),style: KNumerStye
-                          ,),
+                        Text(
+                          'WEIGTH',
+                          style: kLabelStyle,
+                        ),
+                        Text(
+                          sliderWeigth.toString(),
+                          style: KNumerStye,
+                        ),
                         Row(
-                          mainAxisAlignment: MainAxisAlignment.center,
-
-                        )
-
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              RoundIcon(
+                                iconData: FontAwesomeIcons.minus,
+                                onPress: () {
+                                  setState(() {
+                                    sliderWeigth--;
+                                  });
+                                },
+                              ),
+                              SizedBox(width: 10.0),
+                              RoundIcon(
+                                iconData: FontAwesomeIcons.plus,
+                                onPress: () {
+                                  setState(() {
+                                    sliderWeigth++;
+                                  });
+                                },
+                              ),
+                            ])
                       ],
                     ),
                   ),
@@ -139,14 +161,74 @@ class InputPageState extends State<InputPage> {
                 Expanded(
                   child: RepeatRefactorCode(
                     colors: Color(0xFF1D1E33),
+                    cardwidget: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Text(
+                          'AGE',
+                          style: kLabelStyle,
+                        ),
+                        Text(
+                          sliderAge.toString(),
+                          style: KNumerStye,
+                        ),
+                        Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              RoundIcon(
+                                iconData: FontAwesomeIcons.minus,
+                                onPress: () {
+                                  setState(() {
+                                    sliderAge--;
+                                  });
+                                },
+                              ),
+                              SizedBox(width: 10.0),
+                              RoundIcon(
+                                iconData: FontAwesomeIcons.plus,
+                                onPress: () {
+                                  setState(() {
+                                    sliderAge++;
+                                  });
+                                },
+                              ),
+                            ])
+                      ],
+                    ),
                   ),
                 ),
               ],
             ),
           ),
+          Container(
+            color: Color(0xFFEB15555),
+            margin: EdgeInsets.only(top: 10.0),
+            width: double.infinity,
+            height: 80.0,
+          )
         ],
       ),
     ); // End of Scaffold
   }
 }
 
+class RoundIcon extends StatelessWidget {
+  RoundIcon({required this.iconData, required this.onPress});
+  final IconData iconData;
+  final Function onPress;
+
+  @override
+  Widget build(BuildContext context) {
+    return RawMaterialButton(
+      child: Icon(iconData),
+      onPressed: onPress(),
+      elevation: 6.0,
+      constraints: BoxConstraints.tightFor(
+        height: 56.0,
+        width: 56.0,
+      ),
+      shape: CircleBorder(),
+      fillColor: Color(0xFF4C4F5E),
+    );
+  }
+}
