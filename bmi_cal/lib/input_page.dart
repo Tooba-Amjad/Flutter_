@@ -1,9 +1,9 @@
+import 'package:bmi_cal/constant_file.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'IconText.dart';
 import 'ContainerFile.dart';
-const activeColor=Color(0xFF1D1E33);
-const deActiveColor=Color(0xFF111328);
+
 enum Gender{
   male,
   female
@@ -37,6 +37,7 @@ Gender? selectGender;
         title: Text('BMI CALCULATOR'),
       ), // AppBar
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
           Expanded(
             child: Row(
@@ -74,8 +75,16 @@ Gender? selectGender;
             ),
           ),
           Expanded(
-            child:RepeatRefactorCode(colors:Color(0xFF1D1E33),
+            child:RepeatRefactorCode(
+              colors:Color(0xFF1D1E33),
+              cardwidget: Column(
+                children: [
+                  Text('HEIGTH',style: kLabelStyle,),
+
+                ],
+              ),
                 ),
+
           ),
           Expanded(
             child: Row(
