@@ -6,6 +6,7 @@ import 'ContainerFile.dart';
 
 enum Gender { male, female }
 int sliderHeigth=180;
+int sliderWeigth=60;
 class InputPage extends StatefulWidget {
   @override
   InputPageState createState() => InputPageState();
@@ -119,6 +120,20 @@ class InputPageState extends State<InputPage> {
                 Expanded(
                   child: RepeatRefactorCode(
                     colors: Color(0xFF1D1E33),
+                    cardwidget: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Text('WEIGTH',style:kLabelStyle
+                          ,),
+                        Text(sliderWeigth.toString(),style: KNumerStye
+                          ,),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+
+                        )
+
+                      ],
+                    ),
                   ),
                 ),
                 Expanded(
@@ -134,3 +149,4 @@ class InputPageState extends State<InputPage> {
     ); // End of Scaffold
   }
 }
+
