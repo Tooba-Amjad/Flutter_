@@ -38,7 +38,9 @@ class InputPageState extends State<InputPage> {
       appBar: AppBar(
         title: Text('BMI CALCULATOR'),
       ), // AppBar
-      body: Column(
+      body:
+
+       Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
           Expanded(
