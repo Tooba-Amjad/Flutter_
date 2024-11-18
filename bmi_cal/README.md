@@ -15,6 +15,8 @@ The BMI is calculated using the formula:
 ```text
 BMI = weight (kg) / [height (m)]²
 
+```
+
 ## How to Use BMI Calculator
 
 To use the BMI Calculator and interpret your results, follow these steps:
