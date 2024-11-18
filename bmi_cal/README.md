@@ -1,3 +1,4 @@
+
 # BMI Calculator
 
 A simple and efficient Body Mass Index (BMI) calculator that allows users to calculate their BMI based on their height and weight. This tool helps users understand their body composition and health status.
@@ -44,3 +45,16 @@ To use the BMI Calculator and interpret your results, follow these steps:
      | 30 and above    | Obesity        |
 
 By following these steps, you can quickly assess your BMI and gain insights into your health.
+
+# Screenshots and Videos
+
+## Screenshots
+
+### Screenshot 1
+![Screenshot 1](https://github.com/user-attachments/assets/936e9f62-d0b2-46aa-a813-bab0c23aa176)
+
+### Screenshot 2
+![Screenshot 2](https://github.com/user-attachments/assets/47ded9f4-813b-4a7c-b656-df6ceaaa7665)
+
+## Videos
+https://github.com/user-attachments/assets/36f0a69c-98b3-46e0-bc5b-48dc5f1f19f3
