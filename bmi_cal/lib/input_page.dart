@@ -4,6 +4,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'IconText.dart';
 import 'ContainerFile.dart';
 import 'Result_File.dart';
+import 'Caluclator_File.dart';
 
 enum Gender { male, female }
 
@@ -17,32 +18,18 @@ class InputPage extends StatefulWidget {
 }
 
 class InputPageState extends State<InputPage> {
-//   Color maleColor=deActiveColor;
-//   Color femaleColor=deActiveColor;
-//
-//   void updateColor(Gender gendertype){
-// if(gendertype==Gender.male){
-//   maleColor=activeColor;
-//   femaleColor=deActiveColor;
-// }
-// if(gendertype==Gender.female
-// ){
-//   maleColor=activeColor;
-//   femaleColor=deActiveColor;
-// }
-//   }
   Gender? selectGender;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text('BMI CALCULATOR'),
       ), // AppBar
-      body:
-
-       Column(
+      body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
+          // Gender selection
           Expanded(
             child: Row(
               children: <Widget>[
@@ -63,23 +50,26 @@ class InputPageState extends State<InputPage> {
                   ),
                 ),
                 Expanded(
-                    child: RepeatRefactorCode(
-                  colors: selectGender == Gender.female
-                      ? activeColor
-                      : deActiveColor,
-                  onPressed: () {
-                    setState(() {
-                      selectGender = Gender.male;
-                    });
-                  },
-                  cardwidget: RefactorTextandIcon(
-                    iconData: FontAwesomeIcons.female,
-                    label: "Female",
+                  child: RepeatRefactorCode(
+                    colors: selectGender == Gender.female
+                        ? activeColor
+                        : deActiveColor,
+                    onPressed: () {
+                      setState(() {
+                        selectGender = Gender.female;
+                      });
+                    },
+                    cardwidget: RefactorTextandIcon(
+                      iconData: FontAwesomeIcons.female,
+                      label: "FEMALE",
+                    ),
                   ),
-                )),
+                ),
               ],
             ),
           ),
+
+          // Height slider
           Expanded(
             child: RepeatRefactorCode(
               colors: Color(0xFF1D1E33),
@@ -87,7 +77,7 @@ class InputPageState extends State<InputPage> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    'HEIGTH',
+                    'HEIGHT',
                     style: kLabelStyle,
                   ),
                   Row(
@@ -119,6 +109,8 @@ class InputPageState extends State<InputPage> {
               ),
             ),
           ),
+
+          // Weight and Age selection row
           Expanded(
             child: Row(
               children: <Widget>[
@@ -128,35 +120,30 @@ class InputPageState extends State<InputPage> {
                     cardwidget: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Text(
-                          'WEIGTH',
-                          style: kLabelStyle,
-                        ),
-                        Text(
-                          sliderWeigth.toString(),
-                          style: KNumerStye,
-                        ),
+                        Text('WEIGHT', style: kLabelStyle),
+                        Text(sliderWeigth.toString(), style: KNumerStye),
                         Row(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              RoundIcon(
-                                iconData: FontAwesomeIcons.minus,
-                                onPress: () {
-                                  setState(() {
-                                    sliderWeigth--;
-                                  });
-                                },
-                              ),
-                              SizedBox(width: 10.0),
-                              RoundIcon(
-                                iconData: FontAwesomeIcons.plus,
-                                onPress: () {
-                                  setState(() {
-                                    sliderWeigth++;
-                                  });
-                                },
-                              ),
-                            ])
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            RoundIcon(
+                              iconData: FontAwesomeIcons.minus,
+                              onPress: () {
+                                setState(() {
+                                  sliderWeigth--;
+                                });
+                              },
+                            ),
+                            SizedBox(width: 10.0),
+                            RoundIcon(
+                              iconData: FontAwesomeIcons.plus,
+                              onPress: () {
+                                setState(() {
+                                  sliderWeigth++;
+                                });
+                              },
+                            ),
+                          ],
+                        )
                       ],
                     ),
                   ),
@@ -167,35 +154,30 @@ class InputPageState extends State<InputPage> {
                     cardwidget: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Text(
-                          'AGE',
-                          style: kLabelStyle,
-                        ),
-                        Text(
-                          sliderAge.toString(),
-                          style: KNumerStye,
-                        ),
+                        Text('AGE', style: kLabelStyle),
+                        Text(sliderAge.toString(), style: KNumerStye),
                         Row(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              RoundIcon(
-                                iconData: FontAwesomeIcons.minus,
-                                onPress: () {
-                                  setState(() {
-                                    sliderAge--;
-                                  });
-                                },
-                              ),
-                              SizedBox(width: 10.0),
-                              RoundIcon(
-                                iconData: FontAwesomeIcons.plus,
-                                onPress: () {
-                                  setState(() {
-                                    sliderAge++;
-                                  });
-                                },
-                              ),
-                            ])
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            RoundIcon(
+                              iconData: FontAwesomeIcons.minus,
+                              onPress: () {
+                                setState(() {
+                                  sliderAge--;
+                                });
+                              },
+                            ),
+                            SizedBox(width: 10.0),
+                            RoundIcon(
+                              iconData: FontAwesomeIcons.plus,
+                              onPress: () {
+                                setState(() {
+                                  sliderAge++;
+                                });
+                              },
+                            ),
+                          ],
+                        ),
                       ],
                     ),
                   ),
@@ -203,23 +185,36 @@ class InputPageState extends State<InputPage> {
               ],
             ),
           ),
+
+          // Calculate button
           GestureDetector(
-              onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => ResultScreen()));
-              },
-              child: Container(
-                  color: Color(0xFFEB15555),
-                  margin: EdgeInsets.only(top: 10.0),
-                  width: double.infinity,
-                  height: 80.0,
-                  child: Center(
-                  child: Text(
+            onTap: () {
+              CalculatorBrain calc = CalculatorBrain(
+                  height: sliderHeigth, weight: sliderWeigth);
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => ResultScreen(
+                    bmiResult: calc.calculateBMI(),
+                    resultText: calc.getResult(),
+                    interperatation: calc.getInterperataion(),
+                  ),
+                ),
+              );
+            },
+            child: Container(
+              color: Color(0xFFEB1555),
+              margin: EdgeInsets.only(top: 10.0),
+              width: double.infinity,
+              height: 80.0,
+              child: Center(
+                child: Text(
                   "Calculate",
                   style: kLargebutton,
                 ),
-
-              )))
+              ),
+            ),
+          ),
         ],
       ),
     ); // End of Scaffold
@@ -235,7 +230,9 @@ class RoundIcon extends StatelessWidget {
   Widget build(BuildContext context) {
     return RawMaterialButton(
       child: Icon(iconData),
-      onPressed: onPress(),
+      onPressed: () {
+        onPress();
+      },
       elevation: 6.0,
       constraints: BoxConstraints.tightFor(
         height: 56.0,

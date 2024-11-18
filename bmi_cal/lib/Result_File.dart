@@ -3,7 +3,14 @@ import 'package:bmi_cal/constant_file.dart';
 import 'package:bmi_cal/input_page.dart';
 import 'package:flutter/material.dart';
 class ResultScreen extends StatelessWidget {
-  const ResultScreen({super.key});
+  ResultScreen({required this.interperatation
+    ,required this.bmiResult,required this.resultText});
+  final String bmiResult;
+  final String resultText;
+  final String interperatation;
+
+
+
 
   @override
   Widget build(BuildContext context) {
@@ -28,9 +35,9 @@ class ResultScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Text('Normal',style: kResultText),
-                Text('18.3',style: kBMITextStyle),
-                Text('BMI is low you should have to work more',
+                Text(resultText,style: kResultText),
+                Text(bmiResult,style: kBMITextStyle),
+                Text(interperatation,
 
                     textAlign:TextAlign.center,
                     style: kBodyTextStyle),
