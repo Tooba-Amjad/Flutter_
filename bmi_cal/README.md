@@ -1,16 +1,49 @@
-# bmi_cal
+# BMI Calculator
 
-A new Flutter project.
+A simple and efficient Body Mass Index (BMI) calculator that allows users to calculate their BMI based on their height and weight. This tool helps users understand their body composition and health status.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Easy-to-use interface for entering height and weight.
+- Instant BMI calculation and result display.
+- Categorizes BMI results (e.g., Underweight, Normal weight, Overweight, Obesity).
+- Lightweight and highly customizable.
 
-A few resources to get you started if this is your first Flutter project:
+## How It Works
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The BMI is calculated using the formula:
+```text
+BMI = weight (kg) / [height (m)]²
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| BMI Range       | Category       |
+|------------------|----------------|
+| Less than 18.5  | Underweight    |
+| 18.5–24.9       | Normal weight  |
+| 25–29.9         | Overweight     |
+| 30 and above    | Obesity        |
+## How to Use
+
+To calculate your BMI using this tool, follow the steps below:
+
+1. **Input Your Weight**  
+   - Enter your weight in kilograms (e.g., 70).
+
+2. **Input Your Height**  
+   - Enter your height in meters (e.g., 1.75).
+
+3. **Calculate BMI**  
+   - The tool will automatically calculate your BMI using the formula:  
+     ```text
+     BMI = weight (kg) / [height (m)]²
+     ```
+
+4. **Interpret the Result**  
+   - Based on the calculated BMI, the tool will categorize your result into one of the following categories:  
+     | BMI Range       | Category       |
+     |------------------|----------------|
+     | Less than 18.5  | Underweight    |
+     | 18.5–24.9       | Normal weight  |
+     | 25–29.9         | Overweight     |
+     | 30 and above    | Obesity        |
+
+This simple process helps you quickly understand your body composition and its health implications.
