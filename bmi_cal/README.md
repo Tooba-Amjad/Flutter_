@@ -15,12 +15,6 @@ The BMI is calculated using the formula:
 ```text
 BMI = weight (kg) / [height (m)]²
 
-| BMI Range       | Category       |
-|------------------|----------------|
-| Less than 18.5  | Underweight    |
-| 18.5–24.9       | Normal weight  |
-| 25–29.9         | Overweight     |
-| 30 and above    | Obesity        |
 ## How to Use
 
 To calculate your BMI using this tool, follow the steps below:
